@@ -1,3 +1,6 @@
+body, html {
+  overflow-x: hidden;
+}
 body {
     font-family: "Roboto", Arial;
     margin: 0px;

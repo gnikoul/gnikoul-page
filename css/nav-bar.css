@@ -44,3 +44,33 @@
 .nav-bar div:hover::after {
     width: 100%;
 }
+
+
+
+@media (max-width: 1050px){
+    .nav-bar {
+        padding: 20px 220px 20px 220px;
+
+    }
+}
+
+@media (max-width: 950px){
+    .nav-bar {
+        padding: 20px 160px 20px 160px;
+
+    }
+}
+
+@media (max-width: 800px){
+    .nav-bar {
+        padding: 20px 100px 20px 100px;
+
+    }
+}
+
+@media (max-width: 700px){
+    .nav-bar {
+        padding: 20px 50px 20px 50px;
+
+    }
+}

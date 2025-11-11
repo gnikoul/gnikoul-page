@@ -1,0 +1,57 @@
+.contact {
+    text-align: center;
+    background-color: lightblue;
+    color: white;
+    background-color: #081b29;
+    padding-top: 30px;
+}
+
+.find-me {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+i.fa-github {
+  font-size: 40px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 0px red;
+}
+
+.email-me {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.email {
+    display: inline-block;
+}
+
+
+.city {
+    margin-top: 50px;
+}
+
+.map {
+    width: 60%; 
+    height: 350px; 
+    border: 1px solid black;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.contact a,
+.contact a:hover,
+.contact a:active,
+.contact a:visited {
+    color: rgb(145, 226, 255);
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: white;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 10px;
+}

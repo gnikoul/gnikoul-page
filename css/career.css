@@ -33,6 +33,19 @@
     position: relative;
     border-radius: 6px;
     box-shadow: 0px 0px 10px #1e6597;
+
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+}
+.container.right .content {
+    transform: translateX(-100vw);
+}
+
+.container.left .content {
+    transform: translateX(100vw);
+}
+
+.timeline .content.active {
+  transform: translateX(0);
 }
 
 .timeline .left {
@@ -74,7 +87,7 @@
     background-color: #0f3149;
     box-shadow: 0px 0px 10px #1e6597;
     border-radius: 10px;
-    bottom: 0;
+    top: 0;
     left: 50%;
     z-index: -1;
 }
@@ -100,4 +113,13 @@
 }
 .timeline .details {
     margin-top: 10px;
+}
+
+
+@media (max-width: 800px){
+    .timeline {
+        max-width: 98%;
+        left: 1%;
+    }
+
 }
