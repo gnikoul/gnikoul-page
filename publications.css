@@ -1,0 +1,46 @@
+.publications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color: white;
+    box-shadow: inset 0px 0px 200px #c99868;
+}
+
+.publications .section-name {
+    font-size: 40px;
+    font-family: "Libre Baskerville";
+    margin-bottom: 30px;
+}
+
+.publication {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid black;
+}
+
+.publication .title {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+.publication .authors { 
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(134, 134, 134);
+}
+
+.publication .doi { 
+    margin-top: 20px;
+    color: rgb(134, 134, 134);
+}
+
+.doi a {
+    color: rgb(134, 134, 134);
+}
