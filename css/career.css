@@ -27,14 +27,14 @@
 .timeline .content{
     display: flex;
     flex-direction: column;
-    margin: 0px 30px;
+    margin: 10px 30px;
     padding: 20px 30px;
     background-color: rgb(255, 255, 255);
     position: relative;
     border-radius: 6px;
     box-shadow: 0px 0px 10px #1e6597;
 
-    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
 }
 .container.right .content {
     transform: translateX(-100vw);

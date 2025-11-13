@@ -1,13 +1,12 @@
 const publications = document.querySelectorAll('.publication');
 
-const publicationObserver = new IntersectionObserver(entries => sleep(100, () => {
+const publicationObserver = new IntersectionObserver(entries => 
   entries.forEach(entry => {
     if (entry.isIntersecting) {
         entry.target.classList.add('active');
         publicationObserver.unobserve(entry.target);
     }
-  });
-}), { threshold: 0.5 });
+  }), { threshold: 0.3 });
 
 
 publications.forEach(publication => publicationObserver.observe(publication));

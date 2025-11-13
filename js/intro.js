@@ -1,7 +1,9 @@
 const introHead = document.getElementById('intro-head');
 const introBody = document.getElementById('intro-body');
 const introImg = document.getElementById('intro-img');
+const intro = document.getElementById('intro');
 
-sleep(300, () => {introImg.classList.add('active')});
-sleep(800, () => {introHead.classList.add('active')});
-sleep(1300, () => {introBody.classList.add('active')});
+intro.classList.add('active');
+introImg.classList.add('active');
+introHead.classList.add('active');
+introBody.classList.add('active');
