@@ -46,6 +46,10 @@
                     <div class="intro-head" id="intro-head"> 
                         Hi, I'm Giorgos Nikoulis
                     </div>
+                    <div class="intro-profession">
+                        <span id="intro-profession"></span>
+                    </div>
+
                     <div class="body" id="intro-body">
                         I was born and raised in Thessaloniki, the second biggest city in Greece.
                         I completed my Doctoral degree in Computational Physics in 2022 and published six papers during my research.
@@ -63,9 +67,9 @@
                     <p>— Career —</p>
                 </div>
                 <div class="timeline" id="timeline">
-                    <div class="container right">
+                    <div class="container">
                         <div class="time-stop">●</div>
-                        <div class="content">
+                        <div class="content-right">
                             <div class="company-name">
                                 Centre for Research and Technology Hellas (CERTH)
                             </div>
@@ -74,12 +78,13 @@
                             </div>
                             <div class="details">
                                 Working on the AI-CODE Horizon project to detect news disinformation using AI tools and support journalists with various services.
+                                <span class="right-content-arrow"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="container left">
+                    <div class="container">
                         <div class="time-stop">●</div>
-                        <div class="content">
+                        <div class="content-left">
                             <div class="company-name">
                                 Centre for Research and Technology Hellas (CERTH) 
                             </div>
@@ -88,12 +93,13 @@
                             </div>
                             <div class="details">
                                 Worked on the MAMMOth Horizon project on AI fairness, focusing on detecting and mitigating bias in AI systems.
+                                <span class="left-content-arrow"></span>
                             </div>
                         </div>
                     </div>                
-                    <div class="container right">
+                    <div class="container">
                         <div class="time-stop">●</div>
-                        <div class="content">
+                        <div class="content-right">
                             <div class="company-name">
                                 Military Service 
                             </div>
@@ -101,12 +107,13 @@
                                 2023
                             </div>
                             <div class="details">
+                                <span class="right-content-arrow"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="container left">
+                    <div class="container">
                         <div class="time-stop">●</div>
-                        <div class="content">
+                        <div class="content-left">
                             <div class="company-name">
                                 Special Account for Research Funds (ELKE)
                             </div>
@@ -115,6 +122,7 @@
                             </div>
                             <div class="details">
                                 Research and development on material science. Worked on several projects during my Doctoral.
+                                <span class="left-content-arrow"></span>
                             </div>
                         </div>
                     </div>
@@ -190,24 +198,12 @@
             </section>
 
             <footer class="contact">
-                <div class="email-me">You can send me an email at:</div>
-                <a href="mailto:gnikoul@gmail.com">
-                    <span class="material-symbols-outlined envelope" style="font-size:45px; cursor:pointer;text-shadow: 2px 2px 0px red;">mail</span>
-                    <br>
-                    <div class="email">gnikoul@gmail.com</div>
-                </a>
-
-                <div class="find-me">Or find my projects on:</div>
-                <a href="https://github.com/gnikoul" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-
-                <div class="find-me"><a href="https://pypi.org/user/gnikoul/" target="_blank">
-                    PyPi
-                </a></div>
-
-                
-
+                <div class="find-me-head">You can find me via:</div>
+                <div class="find-me-info">
+                    email: <a href="mailto:gnikoul@gmail.com">gnikoul@gmail.com</a><br>
+                    github <i class="fa-brands fa-github"></i>: <a href="https://github.com/gnikoul" target="_blank">github.com/gnikoul</a><br>
+                    PyPI: <a href="https://pypi.org/user/gnikoul/" target="_blank">pypi.org/user/gnikoul</a>
+                </div>
 
                 <div class="city">Greece, Thessaloniki</div>
                 <div id="map" class="map"></div>
@@ -217,6 +213,7 @@
 
         </main>
         <script type="text/javascript" src="./js/general.js"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
         <script type="text/javascript" src="./js/intro.js"></script>
         <script type="text/javascript" src="./js/career.js"></script>
         <script type="text/javascript" src="./js/maps.js"></script>

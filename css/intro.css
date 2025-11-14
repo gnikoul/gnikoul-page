@@ -24,31 +24,19 @@
 .about-me .intro-head {
     font-size: 40px;
     margin-bottom: 20px;
-
-    transition: transform 0.7s ease-out, opacity 0.7s ease-out;
-    transform: translateX(100px);
-    opacity: 0;
 }
 
-.about-me .intro-head.active {
-    transform: translateX(0);
-    opacity: 1;
-    transition-delay: 0.8s;
-}
 
 .about-me .body {
     line-height: 25px;
-
-    transition: transform 0.7s ease-out, opacity 0.7s ease-out;
-    transform: translateX(100px);
-    opacity: 0;
-
 }
 
-.about-me .body.active {
-    transform: translateX(0);
-    opacity: 1;
-    transition-delay: 1.3s
+
+.intro-profession {
+    color: #3badff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .intro img {
@@ -60,17 +48,9 @@
 .intro .image {
     padding-left: 100px;
     padding-right: 50px;
-
-    transition: transform 0.7s ease-out, opacity 0.7s ease-out;
-    transform: translateX(100px);
-    opacity: 0;
 }
 
-.intro .image.active {
-    transform: translateX(0);
-    opacity: 1;
-    transition-delay: 0.3s
-}
+
 
 
 @media (max-width: 1050px){
@@ -104,6 +84,7 @@
     .about-me {
         text-align: center;
         width: auto;
+        justify-content: center;
     }
     .about-me .body {
         padding-top: 30px;

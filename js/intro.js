@@ -1,9 +1,8 @@
-const introHead = document.getElementById('intro-head');
-const introBody = document.getElementById('intro-body');
-const introImg = document.getElementById('intro-img');
-const intro = document.getElementById('intro');
-
-intro.classList.add('active');
-introImg.classList.add('active');
-introHead.classList.add('active');
-introBody.classList.add('active');
+var typed = new Typed('#intro-profession', {
+    strings: ['Research and Development', 'Ph.D. in Computational Physics', 'AI Researcher'],
+    typeSpeed: 80,
+    backSpeed: 80,
+    backDelay: 1000,
+    cursorChar: '│',
+    loop: true
+});

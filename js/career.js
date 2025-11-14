@@ -28,8 +28,10 @@ const containers = document.querySelectorAll('.timeline .container');
 const boxobserver = new IntersectionObserver(entries => sleep(100, () => { {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      const content = entry.target.querySelector('.content');
-      content.classList.add('active');
+      const contentRight = entry.target.querySelector('.content-right');
+      const contentLeft = entry.target.querySelector('.content-left');
+      if (contentRight) {contentRight.classList.add('active');}
+      if (contentLeft) {contentLeft.classList.add('active');}
       boxobserver.unobserve(entry.target); 
     }
   });
