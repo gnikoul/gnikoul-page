@@ -3,30 +3,30 @@
     background-color: lightblue;
     color: white;
     background-color: #081b29;
-    padding-top: 30px;
-    scroll-margin-top: 50px;
-    box-shadow: 0px -5px 5px #081b29;
-    margin-top: 50px;
+    padding-top: 1.875rem;
+    scroll-margin-top:3.125rem;
+    box-shadow: 0 -0.313rem 0.313rem #081b29;
+    margin-top:3.125rem;
 }
 
 .find-me-head {
     font-size: 1.125rem;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .find-me-info {
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 
 .city {
-    margin-top: 50px;
+    margin-top:3.125rem;
 }
 
 .map {
     width: 60%; 
-    height: 350px; 
-    border: 1px solid black;
+    height: 21.875rem; 
+    border: 0.063rem solid black;
     left: 50%;
     transform: translate(-50%,0);
 }
@@ -45,5 +45,5 @@
 
 .copyright {
     font-size: 0.75rem;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }

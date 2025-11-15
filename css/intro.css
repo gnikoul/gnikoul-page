@@ -8,69 +8,69 @@
     gap: 10%;
     background: linear-gradient(0.15turn, #000b13 55%, #081b29 57%);
     color: white;
-    padding: 150px 0px 100px 0px;
-    box-shadow: 0px 5px 20px #1e6597;
+    padding: 9.375rem 0 6.25rem 0;
+    box-shadow: 0 0.313rem1.25rem #1e6597;
     z-index: 9;
 }
 
 .about-me {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
-    padding-left: 50px;
+    max-width: 37.5rem;
+    padding-left:3.125rem;
 }
 
 
 .about-me .intro-head {
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom:1.25rem;
 }
 
 
 .about-me .body {
-    line-height: 25px;
+    line-height: 1.563rem;
 }
 
 
 .intro-profession {
     color: #3badff;
     font-size: 1.875rem;
-    margin-bottom: 20px;
+    margin-bottom:1.25rem;
     font-weight: bold;
 }
 
 .intro img {
-    width: 200px;
-    border-radius: 100px;
-    box-shadow: 0px 0px 40px #2573ab;
+    width: 12.5rem;
+    border-radius: 6.25rem;
+    box-shadow: 0 0 2.5rem #2573ab;
 }
 
 .intro .image {
-    padding-left: 100px;
-    padding-right: 50px;
+    padding-left: 6.25rem;
+    padding-right:3.125rem;
 }
 
 
 
 
-@media (max-width: 1050px){
+@media (max-width: 65.625rem){
     .about-me {
-        width: 550px;
+        width: 34.375rem;
     }
 }
 
-@media (max-width: 950px){
+@media (max-width: 59.375rem){
     .about-me {
-        width: 450px;
+        width: 28.125rem;
     }
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 50rem){
     .intro {
         flex-direction: column-reverse;
         justify-content: center;
-        padding-top: 100px;
+        padding-top: 6.25rem;
         background: none;
         background-color: #000b13; 
     }
@@ -79,7 +79,7 @@
         left: auto;
     }
     .intro .intro-head {
-        margin-top: 50px;
+        margin-top:3.125rem;
     }
     .about-me {
         text-align: center;
@@ -87,7 +87,7 @@
         justify-content: center;
     }
     .about-me .body {
-        padding-top: 30px;
+        padding-top: 1.875rem;
         width: auto;
     }
 }

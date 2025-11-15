@@ -3,7 +3,7 @@ body, html {
 }
 body {
     font-family: "Roboto", Arial;
-    margin: 0px;
+    margin: 0;
 }
 
 main {
@@ -12,6 +12,6 @@ main {
 }
 
 p {
-    margin: 0px;
+    margin: 0;
 }
 

@@ -8,21 +8,21 @@
     justify-content: space-evenly;
     align-items: center;
     position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 20px;
-    padding: 20px 0px 20px 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    height:1.5rem;
+    padding:1.25rem 0 1.25rem 0;
     font-size: 1.25rem;
     background-color: none;
     cursor: default;
     color: var(--nav-bar-color);
     z-index: 10;
     background-color: rgba(255, 255, 255, 0.05); /* semi-transparent */
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px); /* Safari support */
+    backdrop-filter: blur(1.25rem);
+    -webkit-backdrop-filter: blur(1.25rem); /* Safari support */
     transition: color 0.15s;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0 0 0.625rem black;
 }
 
 .nav-bar div {
@@ -33,9 +33,9 @@
     content: "";
     position: absolute;
     left: 50%;
-    bottom: -5px;
+    bottom: -0.313rem;
     width: 0;
-    height: 1px;
+    height: 0.063rem;
     background-color: var(--nav-bar-color);
     transition: all 0.10s ease;
     transform: translateX(-50%);
