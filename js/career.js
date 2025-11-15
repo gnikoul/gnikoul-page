@@ -19,7 +19,7 @@ const observer = new IntersectionObserver(entries => sleep(100, () => {
       observer.unobserve(timeline);
     }
   });
-}), { threshold: 0.3 });
+}), { threshold: 0.1 });
 
 observer.observe(timeline);
 

@@ -24,8 +24,8 @@
 }
 
 .map {
-    width: 60%; 
-    height: 21.875rem; 
+    width: 90%; 
+    height: 15rem; 
     border: 0.063rem solid black;
     left: 50%;
     transform: translate(-50%,0);
