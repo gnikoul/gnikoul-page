@@ -32,8 +32,8 @@ document.querySelector('#Career').addEventListener('click', () => {
   document.querySelector('.career').scrollIntoView({ behavior: 'smooth' });
 });
 
-document.querySelector('#Publications').addEventListener('click', () => {
-  document.querySelector('.publications').scrollIntoView({ behavior: 'smooth' });
+document.querySelector('#Projects').addEventListener('click', () => {
+  document.querySelector('.projects').scrollIntoView({ behavior: 'smooth' });
 });
 
 document.querySelector('#Contact').addEventListener('click', () => {

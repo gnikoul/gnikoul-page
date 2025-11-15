@@ -1,4 +1,4 @@
-const publications = document.querySelectorAll('.publication');
+const publications = document.querySelectorAll('.project');
 
 const publicationObserver = new IntersectionObserver(entries => 
   entries.forEach(entry => {
