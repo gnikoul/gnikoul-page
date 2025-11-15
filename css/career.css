@@ -7,7 +7,7 @@
 }
 
 .career .section-name {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: "Libre Baskerville";
     margin-bottom: 30px;
     text-align: center;
@@ -41,14 +41,14 @@
 
 .time-stop {
     transform: translateY(80px);
-    font-size: 0px;
+    font-size: 0;
     transition: font-size 0.2s ease-out;
     text-shadow: 10px 10px 5px gray;
     color: #3c3c3c;
 }
 
 .time-stop.active {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 

@@ -10,7 +10,7 @@
 }
 
 .find-me-head {
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-bottom: 30px;
 }
 
@@ -44,6 +44,6 @@
 }
 
 .copyright {
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-top: 10px;
 }
