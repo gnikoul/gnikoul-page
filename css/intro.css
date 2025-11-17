@@ -46,9 +46,42 @@
 }
 
 .intro .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
     padding-left: 6.25rem;
     padding-right: 6.25rem;
 }
+
+.intro-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.intro-contact div {
+    position: relative;
+    font-size: 1.7rem;
+    border-radius: 999rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:#113b59;
+}
+.intro-contact div:hover {
+    opacity: 0.7;
+}
+
+.intro-contact a {
+    color: #2e92da;
+}
+.intro-contact div span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 
 
@@ -79,7 +112,7 @@
         left: auto;
     }
     .intro .intro-head {
-        margin-top:3.125rem;
+        margin-top:1.6rem;
     }
     .about-me {
         text-align: center;
@@ -90,4 +123,11 @@
         padding-top: 1.875rem;
         width: auto;
     }
+    .intro-contact div {
+        background-color:#0c2c43;
+    }
+    .intro-contact a {
+        color: #2a83c2;
+    }
+
 }

@@ -132,8 +132,10 @@
     border-bottom: 0.063rem solid black;
 }
 
-.timeline .details {
+.timeline .details,
+.timeline .details a {
     margin-top: 0.625rem;
+    color: rgb(134, 134, 134);
 }
 
 
@@ -141,6 +143,10 @@
     .timeline::after {
         left: 0;
     }
+    .container .content-left {
+        transform: translateX(-100vw);
+    }
+
     .timeline .content-right.active {
         transform: translateX(calc(1.875rem));
 
