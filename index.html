@@ -7,25 +7,30 @@
         <meta property="og:description" content="Giorgos Nikoulis portfolio: research, projects, and professional achievements.">
         <meta property="og:url" content="https://gnikoul.gr">
         <meta property="og:type" content="website">
-        <link rel="icon" type="image/png" href="/images/favicon-48.png" sizes="48x48">
-        <link rel="icon" type="image/png" href="/images/favicon-192.png" sizes="192x192">
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="canonical" href="https://gnikoul.gr/">
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" >
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+        <link rel="icon" type="image/png" href="./images/favicon-48.png" sizes="48x48">
+        <link rel="icon" type="image/png" href="./images/favicon-192.png" sizes="192x192">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
         <link rel="stylesheet" type="text/css" href="./css/general.css">
         <link rel="stylesheet" type="text/css" href="./css/nav-bar.css">
         <link rel="stylesheet" type="text/css" href="./css/intro.css">
         <link rel="stylesheet" type="text/css" href="./css/projects.css">
         <link rel="stylesheet" type="text/css" href="./css/career.css">
         <link rel="stylesheet" type="text/css" href="./css/footer.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
     </head> 
     <body>
         <main>
@@ -56,7 +61,7 @@
                     <div class="intro-contact">   
                         <a href="mailto:gnikoul@gmail.com">
                             <div>
-                                <span class="material-symbols-outlined" style="font-size: 1.8rem;position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);">mail</span>
+                                <span><i class="fa-regular fa-envelope"></i></span>
                             </div>
                         </a>
                         <a href="https://github.com/gnikoul" target="_blank" aria-label="GitHub">
@@ -88,10 +93,28 @@
                         <div class="description">
                             Create and mange model cards for AI models. <br>
                             Created for <a href="https://mever.gr/" target="_blank">MeVer</a> group of <a href="https://www.iti.gr/iti/" target="_blank">CERTH</a> <br>
-                            Powered by: <span style="color:black">Flask</span>
+                            Powered by: <span style="color:black">Flask</span>, <span style="color:black">HTML</span>, <span style="color:black">CSS</span> and <span style="color:black">JavaScript</span> 
                         </div>
                         <div class="links">
                             <a href="https://trai.mever.gr" target="_blank">https://trai.mever.gr</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/aicard-eval.webp" alt="Evaluate text and image classification models">
+                    </div>
+                    <div class="project-info">
+                        <div class="title">
+                            Evaluation Tool for AI Models
+                        </div>
+                        <div class="description">
+                            Evaluation package for multi-label, multi-class classification and object detection. <br>
+                            Created for <a href="https://mever.gr/" target="_blank">MeVer</a> group of <a href="https://www.iti.gr/iti/" target="_blank">CERTH</a> <br>
+                            Powered by: <span style="color:black">Python</span>
+                        </div>
+                        <div class="links">
+                            <a href="https://pypi.org/project/aicard-eval/" target="_blank">https://pypi.org/project/aicard-eval</a>
                         </div>
                     </div>
                 </div>
@@ -146,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="project">
+                <!-- <div class="project">
                     <div class="project-image">
                         <img src="images/mowgap.webp" alt="ML interatomic potential for W-Mo alloys">
                     </div>
@@ -162,7 +185,8 @@
                             Paper: <a href="https://iopscience.iop.org/article/10.1088/1361-648X/ac03d1/meta" target="_blank">link</a>
                         </div>
                     </div>
-                </div><div class="project">
+                </div> -->
+                <div class="project">
                     <div class="project-image">
                         <img src="images/sildenafil.webp" alt="Sildenafil nanoparticles using polymer stabilizers">
                     </div>

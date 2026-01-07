@@ -8,7 +8,7 @@ function updateNavBarColor() {
 
   const scrollY = window.scrollY;
 
-  let color = 'white'; // default color
+  let color = 'white';
 
   if (scrollY > introHeight && scrollY < footerTop) {
     color = 'black';
