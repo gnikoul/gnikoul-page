@@ -7,7 +7,8 @@
     align-items: center;
     justify-content: center;
     gap: 10%;
-    background: linear-gradient(0.15turn, #000b13 55%, #081b29 57%);
+    /* background: linear-gradient(0.15turn, #000b13 55%, #081b29 57%); */
+    background: #000b13;
     color: white;
     padding: 9.375rem 0 6.25rem 0;
     box-shadow: 0 0.313rem1.25rem #1e6597;
