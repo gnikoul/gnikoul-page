@@ -1,4 +1,4 @@
-const publications = document.querySelectorAll('.project');
+const publications = document.querySelectorAll('.project-info');
 
 const publicationObserver = new IntersectionObserver(entries => 
   entries.forEach(entry => {
@@ -6,7 +6,7 @@ const publicationObserver = new IntersectionObserver(entries =>
         entry.target.classList.add('active');
         publicationObserver.unobserve(entry.target);
     }
-  }), { threshold: 0.3 });
+  }), { threshold: 0, rootMargin: '0px 0px -30% 0px' });
 
 
 publications.forEach(publication => publicationObserver.observe(publication));
