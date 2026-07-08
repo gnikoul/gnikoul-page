@@ -10,3 +10,18 @@ const publicationObserver = new IntersectionObserver(entries =>
 
 
 publications.forEach(publication => publicationObserver.observe(publication));
+
+
+function updateProjectsOffset() {
+    const intro = document.querySelector(".intro");
+    const projects = document.querySelector(".projects");
+
+    if (!intro || !projects) return;
+
+    projects.style.marginTop = `${intro.offsetHeight}px`;
+}
+
+// Initial calculation
+updateProjectsOffset();
+// Recalculate on resize
+window.addEventListener("resize", updateProjectsOffset);

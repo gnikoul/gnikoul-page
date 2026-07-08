@@ -1,9 +1,10 @@
 body, html {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 body {
     font-family: "Roboto", Arial;
     margin: 0;
+    background-color: #ffffff;
 }
 
 main {
