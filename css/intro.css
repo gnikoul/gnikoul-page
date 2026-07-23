@@ -14,7 +14,6 @@
     color: white;
     padding: 9.375rem 0 6.25rem 0;
     box-shadow: 0 0.313rem1.25rem #1e6597;
-    z-index: -9;
     min-height: calc(100vh - 9.375rem - 6.25rem);
 
     opacity: 1; /* will be updated by js */
