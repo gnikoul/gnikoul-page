@@ -36,6 +36,10 @@ document.querySelector('#Projects').addEventListener('click', () => {
   document.querySelector('.projects').scrollIntoView({ behavior: 'smooth' });
 });
 
+document.querySelector('#Projects').addEventListener('click', () => {
+  document.querySelector('.projects').scrollIntoView({ behavior: 'smooth' });
+});
+
 document.querySelector('#Contact').addEventListener('click', () => {
   document.querySelector('.contact').scrollIntoView({ behavior: 'smooth' });
 });

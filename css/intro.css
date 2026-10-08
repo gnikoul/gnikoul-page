@@ -10,7 +10,9 @@
     justify-content: center;
     gap: 10%;
     /* background: linear-gradient(0.15turn, #000b13 55%, #081b29 57%); */
-    background: #000b13;
+    /* background: #000b13; */
+    background: radial-gradient(55rem 28rem at 80% 15%, rgba(37, 115, 171, 0.35), transparent 62%), 
+        radial-gradient(45rem 26rem at 8% 88%, rgba(77, 171, 255, 0.14), transparent 68%), #050d16;
     color: white;
     padding: 9.375rem 0 6.25rem 0;
     box-shadow: 0 0.313rem1.25rem #1e6597;
@@ -28,20 +30,40 @@
     padding: 0 3.125rem 0 3.125rem;
 }
 
+.intro-eyebrow {
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-accent-bright);
+    opacity: 0.85;
+    margin-bottom: 1.125rem;
+}
+
 
 .about-me .intro-head {
     font-size: 2.5rem;
     margin-bottom:1.25rem;
+    font-family: var(--font-serif);
+    font-weight: bold;
 }
 
 
 .about-me .body {
     line-height: 1.563rem;
+    font-weight: 300;
+    color: var(--color-dark-mute);
 }
 
+.intro-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.875rem;
+    margin-top: 1.875rem;
+}
 
 .intro-profession {
-    color: #3badff;
+    color: var(--color-accent-bright);
     font-size: 1.875rem;
     margin-bottom:1.25rem;
     font-weight: bold;
@@ -50,7 +72,7 @@
 .intro img {
     width: 12.5rem;
     border-radius: 6.25rem;
-    box-shadow: 0 0 2.5rem #2573ab;
+    box-shadow: 0 0 0 .7rem #2573ab55;
 }
 
 .intro .image {
@@ -113,8 +135,6 @@
         flex-direction: column-reverse;
         justify-content: center;
         padding-top: 6.25rem;
-        background: none;
-        background-color: #000b13; 
         min-height: calc(100vh - 6.25rem);
     }
     .intro .image {
@@ -132,6 +152,10 @@
     .about-me .body {
         padding-top: 1.875rem;
         width: auto;
+        font-weight: 300;
+    }
+    .intro-cta {
+        justify-content: center;
     }
 
 }

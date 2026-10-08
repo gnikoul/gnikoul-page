@@ -1,8 +1,26 @@
+:root{
+    /* Typography */
+    --font-sans: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    --font-serif: "Libre Baskerville", Georgia, "Times New Roman", serif;
+
+    /* Colors */
+    --color-dark-mute: #a9bfd2;
+    --color-accent-bright: #4dabff;
+    --color-dark-ink: #e9f1f8;
+
+    /* Shape + elevation */
+    --radius-full: 999px;
+
+    /* Motion */
+    --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+    --dur: 0.3s;
+}
 body, html {
-  overflow-x: clip;
+    scroll-behavior: smooth;
+    overflow-x: clip;
 }
 body {
-    font-family: "Roboto", Arial;
+    font-family: var(--font-sans);
     margin: 0;
     background-color: #ffffff;
 }
@@ -16,3 +34,59 @@ p {
     margin: 0;
 }
 
+h1, h2, h3 {
+    font-family: var(--font-serif);
+}
+
+/* --------------------------------------------------------------------------
+   Buttons
+   -------------------------------------------------------------------------- */
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    font-family: var(--font-sans);
+    font-size: 0.938rem;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: var(--radius-full);
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease),
+        background-color var(--dur) var(--ease), border-color var(--dur) var(--ease),
+        color var(--dur) var(--ease);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-primary {
+    background: var(--color-accent-bright);
+    color: #04121f;
+    box-shadow: 0 8px 24px rgba(77, 171, 255, 0.28);
+}
+
+.btn-primary:hover {
+    background: #6fbcff;
+    color: #04121f;
+}
+
+.btn-ghost {
+    border-color: rgba(233, 241, 248, 0.35);
+    color: var(--color-dark-ink);
+}
+
+.btn-ghost:hover {
+    border-color: var(--color-accent-bright);
+    background: rgba(77, 171, 255, 0.12);
+    color: #ffffff;
+}
