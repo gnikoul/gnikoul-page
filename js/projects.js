@@ -12,14 +12,14 @@ const publicationObserver = new IntersectionObserver(entries =>
 publications.forEach(publication => publicationObserver.observe(publication));
 
 
-function updateProjectsOffset() {
-    const intro = document.querySelector(".intro");
-    const projects = document.querySelector(".projects");
+// function updateProjectsOffset() {
+//     const intro = document.querySelector(".intro");
+//     const projects = document.querySelector(".projects");
 
-    if (!intro || !projects) return;
+//     if (!intro || !projects) return;
 
-    projects.style.marginTop = `${intro.offsetHeight}px`;
-}
+//     projects.style.paddingTop = `${intro.offsetHeight/2}px`;
+// }
 
 // Initial calculation
 updateProjectsOffset();

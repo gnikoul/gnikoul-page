@@ -5,11 +5,23 @@
 
     /* Colors */
     --color-dark-mute: #a9bfd2;
-    --color-accent-bright: #4dabff;
     --color-dark-ink: #e9f1f8;
+    --color-ink-soft: #47586c;
+    --color-ink-mute: #5e6f85;
+    --color-accent: #1a6ad0;
+    --color-accent-strong: #0f4fa8;
+    --color-accent-bright: #4dabff;
+    --color-surface: #ffffff;
+    --color-surface-alt: #f3f6fa;
+    --color-line: #e2e9f1;
+
+    --shadow-2: 0 12px 34px rgba(16, 32, 54, 0.13);
 
     /* Shape + elevation */
     --radius-full: 999px;
+    --radius-sm: 0.5rem;
+    --radius-md: 0.875rem;
+    --radius-lg: 1.25rem;
 
     /* Motion */
     --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
@@ -36,6 +48,18 @@ p {
 
 h1, h2, h3 {
     font-family: var(--font-serif);
+}
+
+a {
+    color: var(--color-accent);
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: from-font;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 /* --------------------------------------------------------------------------

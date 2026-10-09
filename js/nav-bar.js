@@ -3,7 +3,7 @@ function updateNavBarColor() {
   const intro = document.querySelector('.intro');
   const footer = document.querySelector('.contact');
 
-  const introHeight = intro.offsetHeight - 20;
+  const introHeight = intro.offsetHeight - 80;
   const footerTop = footer.offsetTop - 30;
 
   const scrollY = window.scrollY;
