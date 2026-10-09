@@ -1,5 +1,6 @@
 .projects {
     padding-top: 5rem;
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,6 +146,9 @@
         grid-template-columns: 1fr;
         gap: 2rem;
         border-radius: var(--radius-md);
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 1rem;
         .title {
             text-align: center;
         }
