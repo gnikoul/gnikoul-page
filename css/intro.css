@@ -113,11 +113,13 @@
     transition: transform var(--dur) var(--ease), background-color var(--dur) var(--ease), border-color var(--dur) var(--ease), color var(--dur) var(--ease);
 }
 
-.intro-contact a:hover {
-    transform: translateY(-3px);
-    background-color: rgba(77, 171, 255, 0.18);
-    border-color: var(--color-accent-bright);
-    color: #ffffff;
+@media (hover: hover) {
+    .intro-contact a:hover {
+        transform: translateY(-3px);
+        background-color: rgba(77, 171, 255, 0.18);
+        border-color: var(--color-accent-bright);
+        color: #ffffff;
+    }
 }
 
 .intro-contact div span {

@@ -15,13 +15,13 @@
     --color-surface-alt: #f3f6fa;
     --color-line: #e2e9f1;
 
-    --shadow-2: 0 12px 34px rgba(16, 32, 54, 0.13);
-
     /* Shape + elevation */
     --radius-full: 999px;
     --radius-sm: 0.5rem;
     --radius-md: 0.875rem;
     --radius-lg: 1.25rem;
+    --shadow-1: 0 1px 2px rgba(16, 32, 54, 0.05), 0 6px 20px rgba(16, 32, 54, 0.06);
+    --shadow-2: 0 12px 34px rgba(16, 32, 54, 0.13);
 
     /* Motion */
     --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
@@ -48,6 +48,7 @@ p {
 
 h1, h2, h3 {
     font-family: var(--font-serif);
+    margin: 0;
 }
 
 a {
@@ -60,6 +61,26 @@ a {
 *::before,
 *::after {
     box-sizing: border-box;
+}
+.section-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    margin-bottom: clamp(1.5rem, 4vw, 2.75rem);
+}
+
+.section-name::before,
+.section-name::after {
+    content: "";
+    display: inline-block;
+    width: clamp(1.75rem, 8vw, 4rem);
+    height: 1px;
+    background: currentColor;
+    opacity: 0.35;
 }
 
 /* --------------------------------------------------------------------------
@@ -85,8 +106,14 @@ a {
         color var(--dur) var(--ease);
 }
 
-.btn:hover {
-    transform: translateY(-2px);
+@media (hover: hover) {
+    .btn:hover {
+        transform: translateY(-2px);
+    }
+    .btn-primary:hover {
+        background: #6fbcff;
+        color: #04121f;
+    }
 }
 
 .btn:active {
@@ -99,10 +126,7 @@ a {
     box-shadow: 0 8px 24px rgba(77, 171, 255, 0.28);
 }
 
-.btn-primary:hover {
-    background: #6fbcff;
-    color: #04121f;
-}
+
 
 .btn-ghost {
     border-color: rgba(233, 241, 248, 0.35);
