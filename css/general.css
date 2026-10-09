@@ -4,6 +4,8 @@
     --font-serif: "Libre Baskerville", Georgia, "Times New Roman", serif;
 
     /* Colors */
+    --color-dark: #050d16;
+    --color-dark-2: #081b29;
     --color-dark-mute: #a9bfd2;
     --color-dark-ink: #e9f1f8;
     --color-ink-soft: #47586c;

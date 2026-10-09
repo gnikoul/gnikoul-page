@@ -12,7 +12,7 @@
     /* background: linear-gradient(0.15turn, #000b13 55%, #081b29 57%); */
     /* background: #000b13; */
     background: radial-gradient(55rem 28rem at 80% 15%, rgba(37, 115, 171, 0.35), transparent 62%), 
-        radial-gradient(45rem 26rem at 8% 88%, rgba(77, 171, 255, 0.14), transparent 68%), #050d16;
+        radial-gradient(45rem 26rem at 8% 88%, rgba(77, 171, 255, 0.14), transparent 68%), var(--color-dark);
     color: white;
     padding: 9.375rem 0 6.25rem 0;
     box-shadow: 0 0.313rem1.25rem #1e6597;
